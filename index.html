@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting A Day In May</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c5c731253d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Barlow+Semi+Condensed&family=Bebas+Neue&family=Bungee&family=Girassol&family=Inter+Tight&family=Montserrat:wght@300&family=Noto+Sans+Meroitic&family=Noto+Sans+Osmanya&family=Oswald&family=REM&family=Raleway&family=Roboto&family=Rubik:wght@500;600&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="im-case" class="hid overlay">
+        <div class="rowe">
+            <div class="chico">
+                <i id="xmark" class="fa-solid fa-x"></i>
+            </div>
+            <img class="ov-im" id="pop" src="images/elementor-placeholder-image.webp" alt="">
+        </div>
+    </div>
+    <div class="nav-bar">
+        <div class="container">
+            <div class="apart">
+                <div class="logo">
+                    <img class="logo-img" src="/images/Union.png" alt="">
+                </div>
+                <div class="list">
+                    <a class="main-t marg nav-item" href="index.html">About</a>
+                    <a class="side-t nav-extra" href="index.html">More Stats</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="spread container">
+            <div class="main-left">
+                <form action="">
+                    <div class="flex main-left__top">
+                        <h3 class="small-title-text">Day <span id="current-day">0</span></h3>
+                        <h5 class="sub-heading">of <span id="total-days">31</span></h5>
+                    </div>
+                    <div class="flex main-left__check">
+                        <input id="check" class="boxy" type="checkbox" name="" id="">
+                        <h4 class="small-title-text">I Painted Today!</h4>
+                    </div>
+                    <!-- <div class="main-left__upload">
+                        <input class="file" type="file" name="" id="">
+                    </div> -->
+                    <div class="sub-button small-title-text" id="submit" type="submit">Submit</div>
+                </form>
+            </div>
+            <div class="main-right">
+                <div id="right" class="main-right__top">
+                    <div class="main-right__top__calandar">
+                        <h2 class="main-t small-title-text">MAY 2024</h2>
+                        <div class="line"></div>
+                        <div class="sub-heading calandar">
+                            <div class="flex">
+                                <h3 class="nam row-block">SUN</h3>
+                                <h3 class="nam row-block">MON</h3>
+                                <h3 class="nam row-block">TUE</h3>
+                                <h3 class="nam row-block">WED</h3>
+                                <h3 class="nam row-block">THU</h3>
+                                <h3 class="nam row-block">FRI</h3>
+                                <h3 class="nam row-block">SAT</h3>
+                            </div>
+                            <div class="flex">
+                                <div class="row-block"> </div>
+                                <div class="row-block"> </div>
+                                <div class="row-block"></div>
+                                <div id="1" class="row-block">1</div>
+                                <div id="2" class="row-block">2</div>
+                                <div id="3" class="row-block">3</div>
+                                <div id="4" class="row-block">4</div>
+                            </div>
+                            <div class="flex">
+                                <div id="5" class="row-block">5</div><br>
+                                <div id="6" class="row-block">6</div>
+                                <div id="7" class="row-block">7</div>
+                                <div id="8" class="row-block">8</div>
+                                <div id="9" class="row-block">9</div>
+                                <div id="10" class="row-block">10</div>
+                                <div id="11" class="row-block">11</div>
+                            </div>
+                            <div class="flex">
+                                <div id="12" class="row-block">12</div>
+                                <div id="13" class="row-block">13</div>
+                                <div id="14" class="row-block">14</div>
+                                <div id="15" class="row-block">15</div>
+                                <div id="16" class="row-block">16</div> <br>
+                                <div id="17" class="row-block">17</div>
+                                <div id="18" class="row-block">18</div>
+                            </div>
+                            <div class="flex">
+                                <div id="19" class="row-block">19</div>
+                                <div id="20" class="row-block">20</div>
+                                <div id="21" class="row-block">21</div>
+                                <div id="22" class="row-block">22</div>
+                                <div id="23" class="row-block">23</div>
+                                <div id="24" class="row-block">24</div>
+                                <div id="25" class="row-block">25</div>
+                            </div>
+                            <div class="flex">
+                                <div id="26" class="row-block">26</div>
+                                <div id="27" class="row-block">27 </div><br>
+                                <div id="28" class="row-block">28</div>
+                                <div id="29" class="row-block">29</div>
+                                <div id="30" class="row-block">30</div>
+                                <div id="31" class="row-block">31</div>
+                                <div class="row-block"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right__top__stats">
+                        <h3 class="main-t small-title-text">Stats</h3>
+                        <div class="prog line"></div>
+                        <div class="progress-container">
+                            <div class="row">
+                                <h4 class="small-title">% Complete:</h4>
+                                <h4 class="small-title"><span id="complete">0</span>%</h4>
+                            </div>
+                            <div class="row">
+                                <h4 class="small-title">% Remaining:</h4>
+                                <h4 class="small-title"><span id="remaining">100</span>%</h4>
+                            </div>
+                            <div class="row">
+                                <h4 class="small-title">Total Submissions</h4>
+                                <h4 class="small-title"><span id="submissions">14</span></h4>
+                            </div>
+                            <div class="row">
+                                <h4 class="small-title">Streak Count:</h4>
+                                <h4 class="small-title"><span id="remaining">14</span></h4>
+                            </div>
+                            <div class="row">
+                                <h4 class="small-title">Score</h4>
+                                <h4 class="small-title"><span id="score">140</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="big-gallery">
+            <div class="even container">
+                <div class="column">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5495.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5503.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5511.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5520.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5522.PNG" alt="">
+                </div>
+                <div class="column">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5499.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5505.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5512.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5516.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5527.PNG" alt="">
+                </div>
+                <div class="column">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5501.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5507.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_7172.PNG" alt="">
+                    <img id="imagee" class="gal-im" src="/images/IMG_5529.PNG" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img class="footer-img" src="/images/Union.png" alt="">
+            <h5 class="footer-text">All Rights Reserved  • Paint 31 • 2024</h5>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
