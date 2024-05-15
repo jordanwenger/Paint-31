@@ -496,9 +496,10 @@ form {
     }
 
     .fa-x {
-        font-size: 10px;
+        font-size: 25px;
         margin-left: 0em;
-        margin-right: 2em;
+        margin-right: 0em;
+        margin-bottom: 0em;
     }
 
     .spread {
