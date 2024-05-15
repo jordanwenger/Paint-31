@@ -24,6 +24,13 @@ img, svg {
     height: 100%;
 }
 
+.special {
+    display: flex;
+    max-width: 1150px;
+    width: 100%;
+    padding: 0px 30px;
+}
+
 
 
 
@@ -444,7 +451,7 @@ form {
 .overlay {
     position: fixed;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -477,6 +484,23 @@ form {
 /* MEDIA QUERIES */
 
 @media(max-width: 1150px) {
+
+    .ov-im {
+        height: 200px;
+        width: 300px;
+        object-fit: contain;
+    }
+
+    .chico {
+        width: 280px;
+    }
+
+    .fa-x {
+        font-size: 10px;
+        margin-left: 0em;
+        margin-right: 2em;
+    }
+
     .spread {
         display: flex;
         flex-direction: column;
@@ -502,5 +526,22 @@ form {
 
     .calandar {
         margin-bottom: 2em;
+    }
+
+    .main-right__top {
+        height: 800px;
+    }
+
+    .main-right__top__stats {
+        width: 300px;
+    }
+
+    .special {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
     }
 }
