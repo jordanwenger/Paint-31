@@ -486,8 +486,8 @@ form {
 @media(max-width: 1150px) {
 
     .ov-im {
-        height: 200px;
-        width: 300px;
+        height: calc(width * 1.5);
+        width: 95vw;
         object-fit: contain;
     }
 
