@@ -153,9 +153,11 @@ img, svg {
 
 .logo-img {
     height: 35px;
+    width: 100px;
+    object-fit: cover;
     cursor: pointer;
     transition: 300ms;
-    object-fit: cover;
+    overflow: none;
 }
 
 .list {
@@ -704,5 +706,31 @@ form {
 
     .ab-text {
         margin: 0em 0em 2em 0em;
+    }
+
+    .logo-img {
+        height: 25px;
+        width: 130px;
+        object-fit: cover;
+        cursor: pointer;
+        transition: 300ms;
+    }
+
+    .nav-item {
+        font-size: 18px;
+    }
+    
+    .nav-extra {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-family: var(--bebas-neue);
+        font-size: 18px;
+        background-color: rgb(51, 51, 51);
+        height: 45px;
+        width: 90px;
+        border-radius: 7px;
+        margin-left: 1.5em;
     }
 }
