@@ -155,6 +155,7 @@ img, svg {
     height: 35px;
     cursor: pointer;
     transition: 300ms;
+    object-fit: cover;
 }
 
 .list {
