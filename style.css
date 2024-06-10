@@ -481,6 +481,144 @@ form {
 
 
 
+
+/* ARCHIVE STYLES */
+
+
+.year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.yr-text {
+    font-family: var(--montserrat);
+    padding: 0em 1em;
+}
+
+.line-box {
+    height: 2px;
+    width: 300px;
+    background-color: black;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.month-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month {
+    height: 120px;
+    text-decoration: none;
+    color: #000000;
+    width: 200px;
+    background-color:  #cddad2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+}
+
+.month:hover {
+    scale: 0.95;
+}
+
+.month-w {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    background-color: #f0f2e8;
+}
+
+.mon-name {
+    font-family: var(--montserrat);
+}
+
+.back-fam {
+    font-family: var(--tight);
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.coming-soon {
+    font-family: var(--montserrat);
+    font-size: 20px;
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+
+}
+
+.folder-holder {
+    min-height: 80vh;
+}
+
+.feat-title {
+    font-family: var(--bebas-neue);
+    font-size: 30px;
+    margin-top: 3em;
+    margin-bottom: -1em;
+}
+
+.announce-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-weight: 700;
+    padding: 1em 0em;
+}
+
+.ab-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.ab-photo {
+    width: 300px;
+    object-fit: cover;
+    margin-right: 3em;
+}
+
+.ab-text {
+    font-family: var(--tight);
+    max-width: 600px;
+    padding: 0em 3em;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.abou {
+    min-height: 80vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.p-case {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* MEDIA QUERIES */
 
 @media(max-width: 1150px) {
@@ -544,5 +682,26 @@ form {
 
     .column {
         width: 100%;
+    }
+
+    .footer-img {
+        display: none;
+    }
+
+    .line-box {
+        width: 70px;
+    }
+
+    .ab-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab-photo {
+        margin: 0em 0em 2em 0em;
+    }
+
+    .ab-text {
+        margin: 0em 0em 2em 0em;
     }
 }
