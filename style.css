@@ -733,4 +733,8 @@ form {
         border-radius: 7px;
         margin-left: 1.5em;
     }
+
+    .ab-text {
+        padding: 0em 1em;
+    }
 }
