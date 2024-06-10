@@ -7,7 +7,7 @@ const date = new Date();
 const day = Math.round(date.getDate());
 const month = date.getMonth() + 1;
 
-console.log(day);
+
 
 if(Number(month) == 5) {
     const today = day;

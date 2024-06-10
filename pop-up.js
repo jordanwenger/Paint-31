@@ -19,6 +19,8 @@ xMark.addEventListener('click', function() {
     }, 400)
 })
 
-
+const date = new Date();
+const year = date.getFullYear();
+document.getElementById("cur-year").innerText = `${year}`
 
 
