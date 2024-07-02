@@ -9,7 +9,7 @@ const month = date.getMonth() + 1;
 
 
 
-if(Number(month) == 5) {
+if(Number(month) == 7) {
     const today = day;
     document.getElementById(`${today}`).classList.toggle("current");
     document.getElementById('current-day').innerText = `${today}`;

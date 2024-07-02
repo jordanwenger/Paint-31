@@ -130,6 +130,10 @@ img, svg {
     margin-left: 5em;
 }
 
+.full {
+    min-height: 60vh;
+}
+
 
 
 /* NAVIGATION BAR */
